@@ -1,0 +1,16 @@
+<body>
+</body>
+
+<template name="LayoutOne">
+	{{> head}}
+	{{> header}}
+	{{> yield}}
+
+	<div id="footer">
+		<div class="container">
+			<p class="text-muted">BookSwap</p>
+		</div>
+	</div>
+	
+	{{> footer_scripts}}
+</template>
